@@ -1,0 +1,77 @@
+# Mason brick .gitignore
+
+# Dart/Flutter
+.dart_tool/
+.packages
+pubspec.lock
+build/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Hooks build artifacts
+hooks/.dart_tool/
+hooks/.packages
+hooks/pubspec.lock
+hooks/build/
+
+# Template build artifacts (these are part of the template)
+__brick__/build/
+__brick__/.dart_tool/
+__brick__/.flutter-plugins
+__brick__/.flutter-plugins-dependencies
+__brick__/.metadata
+__brick__/pubspec.lock
+
+# iOS
+__brick__/ios/Pods/
+__brick__/ios/.symlinks/
+__brick__/ios/Flutter/Flutter.framework
+__brick__/ios/Flutter/Flutter.podspec
+__brick__/ios/.generated/
+__brick__/ios/Flutter/ephemeral/
+
+# Android
+__brick__/android/.gradle/
+__brick__/android/gradle/
+__brick__/android/gradlew
+__brick__/android/gradlew.bat
+__brick__/android/local.properties
+__brick__/android/app/build/
+__brick__/android/.idea/
+__brick__/android/captures/
+
+# macOS
+__brick__/macos/Pods/
+__brick__/macos/Flutter/ephemeral/
+
+# Linux
+__brick__/linux/flutter/ephemeral/
+
+# Windows  
+__brick__/windows/flutter/ephemeral/
+
+# Web
+__brick__/web/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Exceptions - DO include these template files
+!__brick__/.gitignore
+!__brick__/.env.example
+!__brick__/README.md
+

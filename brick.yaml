@@ -1,0 +1,29 @@
+name: flutter_template
+description: A complete Flutter project template with BLoC, localization, and theme management
+version: 1.1.0+1
+
+# Repository URL where the brick is stored (optional)
+# repository: https://github.com/yourusername/flutter_template
+
+environment:
+  mason: ">=0.1.0-dev <1.0.0"
+
+vars:
+  project_name:
+    type: string
+    description: The name of your Flutter project
+    default: my_app
+    prompt: What is your project name?
+  
+  description:
+    type: string
+    description: A short description of your Flutter project
+    default: A new Flutter project
+    prompt: What is your project description?
+  
+  org_name:
+    type: string
+    description: Your organization name (reverse domain notation)
+    default: com.example
+    prompt: What is your organization name (e.g., com.example)?
+
