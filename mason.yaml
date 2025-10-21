@@ -1,3 +1,5 @@
 bricks:
   flutter_template:
-    path: .
+    git:
+      url: "https://github.com/AbdullahEmadEldin/project_template_brick"
+      path: 
